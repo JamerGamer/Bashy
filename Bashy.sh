@@ -4,7 +4,7 @@ echo "Why are you feeling sad?"
 
 read emotions
 
-echo "So you are sad because of "$emotions" (Answery Y/y or N/n)?"
+echo "So you are sad because of "$emotions" (Answery y or n)?"
 
 read answer
 if [ $answer == "y" ]
